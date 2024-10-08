@@ -7,7 +7,10 @@ body{
     background:url("images/bg.jpg");
     align-items: center;
 }
-#canvas{
+.fields{
+    margin:2rem;
+}
+.canvas{
     height:200px;
    width:200px;
    background-color:pink;
