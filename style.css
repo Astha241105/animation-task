@@ -10,16 +10,5 @@ body{
 #canvas{
     height:600px;
    width:600px;
-}
-.field{
-   height:600px;
-   width:600px;
-   margin:10px;
-   display:grid;
-   justify-content:center;
-   grid-template-rows:repeat(3,1fr);
-   grid-template-columns:repeat(3,1fr);
-   align-self: center;
-   border:2px solid black;
-   background-color: pink;
+   background-color:pink;
 }
