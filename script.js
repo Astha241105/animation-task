@@ -23,7 +23,7 @@ function preloading(images,callback){
 }
 function newframe(){
     ctx.clearRect(0,0,canvas1.width,canvas1.height);
-    ctx.drawImage(imageloaded[curFrame],0,0,canvas1.height,canvas1.width);
+    ctx.drawImage(imageloaded[curFrame],0,0,canvas1.width,canvas1.height);
     curFrame=(curFrame+1)%images.length;
     requestAnimationFrame(newframe);
 }
