@@ -4,13 +4,17 @@
     overflow:hidden;
 }
 body{
-    background:url("bg.jpg");
+    background:url("images/bg.jpg");
     align-items: center;
 }
+#canvas{
+    height:600px;
+   width:600px;
+}
 .field{
-   height:30rem;
-   width:30rem;
-   margin:5rem;
+   height:600px;
+   width:600px;
+   margin:10px;
    display:grid;
    justify-content:center;
    grid-template-rows:repeat(3,1fr);
