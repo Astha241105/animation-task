@@ -9,9 +9,12 @@ body{
 }
 .fields{
     margin:2rem;
+    border:2px solid palevioletred;
 }
 .canvas{
-    height:200px;
-   width:200px;
+    margin:2rem;
+    height:600px;
+   width:600px;
+   border:10px solid palevioletred;
    background-color:pink;
 }
